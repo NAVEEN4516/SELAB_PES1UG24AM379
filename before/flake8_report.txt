@@ -1,0 +1,4 @@
+supplier_orders.py:5:80: E501 line too long (122 > 79 characters)
+supplier_orders.py:11:80: E501 line too long (131 > 79 characters)
+supplier_orders.py:12:16: E225 missing whitespace around operator
+supplier_orders.py:32:80: E501 line too long (87 > 79 characters)
