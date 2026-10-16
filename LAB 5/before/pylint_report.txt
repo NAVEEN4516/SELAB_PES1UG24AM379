@@ -1,0 +1,27 @@
+************* Module supplier_orders
+supplier_orders.py:5:0: C0301: Line too long (122/100) (line-too-long)
+supplier_orders.py:11:0: C0301: Line too long (131/100) (line-too-long)
+supplier_orders.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+supplier_orders.py:6:0: C0103: Constant name "order_total" doesn't conform to UPPER_CASE naming style (invalid-name)
+supplier_orders.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+supplier_orders.py:9:0: C0103: Function name "placeOrder" doesn't conform to snake_case naming style (invalid-name)
+supplier_orders.py:9:15: W0621: Redefining name 'conn' from outer scope (line 4) (redefined-outer-name)
+supplier_orders.py:10:4: W0603: Using the global statement (global-statement)
+supplier_orders.py:11:17: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+supplier_orders.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+supplier_orders.py:16:0: C0103: Function name "markReceived" doesn't conform to snake_case naming style (invalid-name)
+supplier_orders.py:16:17: W0621: Redefining name 'conn' from outer scope (line 4) (redefined-outer-name)
+supplier_orders.py:16:33: W0613: Unused argument 'remarks' (unused-argument)
+supplier_orders.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+supplier_orders.py:20:0: C0103: Function name "notifyWarehouse" doesn't conform to snake_case naming style (invalid-name)
+supplier_orders.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+supplier_orders.py:24:12: W0621: Redefining name 'conn' from outer scope (line 4) (redefined-outer-name)
+supplier_orders.py:27:11: W0718: Catching too general exception Exception (broad-exception-caught)
+supplier_orders.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+supplier_orders.py:31:0: C0103: Function name "pendingCount" doesn't conform to snake_case naming style (invalid-name)
+supplier_orders.py:31:17: W0621: Redefining name 'conn' from outer scope (line 4) (redefined-outer-name)
+supplier_orders.py:35:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 2.41/10
+
