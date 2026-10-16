@@ -20,7 +20,10 @@ def create_connection():
 
 def total_quantity(connection):
     """Return the total quantity across every order on the books."""
-    return connection.execute("SELECT COALESCE(SUM(quantity), 0) FROM orders").fetchone()[0]
+    row = connection.execute(
+        "SELECT COALESCE(SUM(quantity), 0) FROM orders"
+    ).fetchone()
+    return row[0]
 
 
 def place_order(connection, supplier, item, quantity):
@@ -56,7 +59,10 @@ def cleanup(connection):
 
 def pending_count(connection):
     """Return how many orders are still awaiting delivery."""
-    return connection.execute("SELECT COUNT(*) FROM orders WHERE received = 0").fetchone()[0]
+    row = connection.execute(
+        "SELECT COUNT(*) FROM orders WHERE received = 0"
+    ).fetchone()
+    return row[0]
 
 
 def main():
