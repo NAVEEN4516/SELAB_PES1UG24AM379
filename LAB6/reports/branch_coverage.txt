@@ -1,0 +1,10 @@
+$ python -m coverage run --branch --source=daycare_fees -m pytest -q BranchCoverageTest_daycare_fees.py
+.................................................                        [100%]
+49 passed in 0.10s
+
+$ python -m coverage report -m
+Name              Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------
+daycare_fees.py      37      0     26      0   100%
+-------------------------------------------------------------
+TOTAL                37      0     26      0   100%
