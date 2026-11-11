@@ -1,0 +1,10 @@
+$ python -m coverage run --source=daycare_fees -m pytest -q CodeCoverageTest_daycare_fees.py
+.............                                                            [100%]
+13 passed in 0.04s
+
+$ python -m coverage report -m
+Name              Stmts   Miss  Cover   Missing
+-----------------------------------------------
+daycare_fees.py      37      0   100%
+-----------------------------------------------
+TOTAL                37      0   100%
