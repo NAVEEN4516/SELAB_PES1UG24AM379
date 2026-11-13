@@ -2,7 +2,7 @@ FFF                                                                      [100%]
 ================================== FAILURES ===================================
 ________________________ test_parse_enrolment_no_crash ________________________
   + Exception Group Traceback (most recent call last):
-  |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 15, in test_parse_enrolment_no_crash
+  |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 15, in test_parse_enrolment_no_crash
   |     def test_parse_enrolment_no_crash(s):
   |                    ^^^
   |   File "C:\Users\LENOVO\Downloads\New folder (3)\.lab7-deps\hypothesis\core.py", line 2334, in wrapped_test
@@ -10,10 +10,10 @@ ________________________ test_parse_enrolment_no_crash ________________________
   | ExceptionGroup: Hypothesis found 3 distinct failures. (3 sub-exceptions)
   +-+---------------- 1 ----------------
     | Traceback (most recent call last):
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
     |     result = parse_enrolment(s)
     |              ^^^^^^^^^^^^^^^^^^
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 3, in parse_enrolment
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\daycare_fees.py", line 3, in parse_enrolment
     |     return age_group.strip().title(), float(hours)
     |                                       ^^^^^^^^^^^^
     | ValueError: could not convert string to float: ''
@@ -22,10 +22,10 @@ ________________________ test_parse_enrolment_no_crash ________________________
     | )
     +---------------- 2 ----------------
     | Traceback (most recent call last):
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
     |     result = parse_enrolment(s)
     |              ^^^^^^^^^^^^^^^^^^
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 2, in parse_enrolment
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\daycare_fees.py", line 2, in parse_enrolment
     |     age_group, hours = text.split(':')
     |     ^^^^^^^^^^^^^^^^
     | ValueError: not enough values to unpack (expected 2, got 1)
@@ -34,10 +34,10 @@ ________________________ test_parse_enrolment_no_crash ________________________
     | )
     +---------------- 3 ----------------
     | Traceback (most recent call last):
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
     |     result = parse_enrolment(s)
     |              ^^^^^^^^^^^^^^^^^^
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 2, in parse_enrolment
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\daycare_fees.py", line 2, in parse_enrolment
     |     age_group, hours = text.split(':')
     |                        ^^^^^^^^^^
     | AttributeError: 'NoneType' object has no attribute 'split'
@@ -47,7 +47,7 @@ ________________________ test_parse_enrolment_no_crash ________________________
     +------------------------------------
 _________________________ test_hours_average_no_crash _________________________
   + Exception Group Traceback (most recent call last):
-  |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 24, in test_hours_average_no_crash
+  |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 24, in test_hours_average_no_crash
   |     def test_hours_average_no_crash(s):
   |                    ^^^
   |   File "C:\Users\LENOVO\Downloads\New folder (3)\.lab7-deps\hypothesis\core.py", line 2334, in wrapped_test
@@ -55,10 +55,10 @@ _________________________ test_hours_average_no_crash _________________________
   | ExceptionGroup: Hypothesis found 2 distinct failures. (2 sub-exceptions)
   +-+---------------- 1 ----------------
     | Traceback (most recent call last):
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 25, in test_hours_average_no_crash
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 25, in test_hours_average_no_crash
     |     result = hours_average(s)
     |              ^^^^^^^^^^^^^^^^
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 6, in hours_average
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\daycare_fees.py", line 6, in hours_average
     |     values = [int(r) for r in hours_csv.split(',')]
     |               ^^^^^^
     | ValueError: invalid literal for int() with base 10: ''
@@ -67,10 +67,10 @@ _________________________ test_hours_average_no_crash _________________________
     | )
     +---------------- 2 ----------------
     | Traceback (most recent call last):
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 25, in test_hours_average_no_crash
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 25, in test_hours_average_no_crash
     |     result = hours_average(s)
     |              ^^^^^^^^^^^^^^^^
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 6, in hours_average
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\daycare_fees.py", line 6, in hours_average
     |     values = [int(r) for r in hours_csv.split(',')]
     |                               ^^^^^^^^^^^^^^^
     | AttributeError: 'NoneType' object has no attribute 'split'
@@ -80,7 +80,7 @@ _________________________ test_hours_average_no_crash _________________________
     +------------------------------------
 __________________________ test_payable_fee_no_crash __________________________
   + Exception Group Traceback (most recent call last):
-  |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 30, in test_payable_fee_no_crash
+  |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 30, in test_payable_fee_no_crash
   |     def test_payable_fee_no_crash(s):
   |                    ^^^
   |   File "C:\Users\LENOVO\Downloads\New folder (3)\.lab7-deps\hypothesis\core.py", line 2334, in wrapped_test
@@ -88,10 +88,10 @@ __________________________ test_payable_fee_no_crash __________________________
   | ExceptionGroup: Hypothesis found 3 distinct failures. (3 sub-exceptions)
   +-+---------------- 1 ----------------
     | Traceback (most recent call last):
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
     |     result = payable_fee(s)
     |              ^^^^^^^^^^^^^^
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 11, in payable_fee
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\daycare_fees.py", line 11, in payable_fee
     |     total = float(fee) * 1.18 - float(discount)
     |             ^^^^^^^^^^
     | ValueError: could not convert string to float: ''
@@ -100,10 +100,10 @@ __________________________ test_payable_fee_no_crash __________________________
     | )
     +---------------- 2 ----------------
     | Traceback (most recent call last):
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
     |     result = payable_fee(s)
     |              ^^^^^^^^^^^^^^
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 10, in payable_fee
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\daycare_fees.py", line 10, in payable_fee
     |     fee, discount = text.split('|')
     |     ^^^^^^^^^^^^^
     | ValueError: not enough values to unpack (expected 2, got 1)
@@ -112,10 +112,10 @@ __________________________ test_payable_fee_no_crash __________________________
     | )
     +---------------- 3 ----------------
     | Traceback (most recent call last):
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
     |     result = payable_fee(s)
     |              ^^^^^^^^^^^^^^
-    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 10, in payable_fee
+    |   File "C:\Users\LENOVO\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{f72cb8ce-55f8-4b76-91c1-1e3b2aa1f780}\Temp\lab7_baseline_t_68aoyh\daycare_fees.py", line 10, in payable_fee
     |     fee, discount = text.split('|')
     |                     ^^^^^^^^^^
     | AttributeError: 'NoneType' object has no attribute 'split'
@@ -127,4 +127,4 @@ __________________________ test_payable_fee_no_crash __________________________
 FAILED test_daycare_fees.py::test_parse_enrolment_no_crash - ExceptionGroup: ...
 FAILED test_daycare_fees.py::test_hours_average_no_crash - ExceptionGroup: Hy...
 FAILED test_daycare_fees.py::test_payable_fee_no_crash - ExceptionGroup: Hypo...
-3 failed, 52 deselected in 8.06s
+3 failed, 52 deselected in 7.71s

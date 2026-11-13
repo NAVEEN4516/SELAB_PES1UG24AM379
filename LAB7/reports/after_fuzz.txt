@@ -1,0 +1,57 @@
+.......................................................                  [100%]
+============================ Hypothesis Statistics ============================
+test_daycare_fees.py::test_parse_enrolment_no_crash:
+
+  - during generate phase (0.87 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 500 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=500
+
+
+test_daycare_fees.py::test_hours_average_no_crash:
+
+  - during generate phase (0.84 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 500 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=500
+
+
+test_daycare_fees.py::test_payable_fee_no_crash:
+
+  - during generate phase (0.79 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 500 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=500
+
+
+test_daycare_fees.py::test_valid_enrolment:
+
+  - during generate phase (0.74 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 500 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=500
+
+
+test_daycare_fees.py::test_average_matches_floor_of_arithmetic_mean:
+
+  - during generate phase (1.74 seconds):
+    - Typical runtimes: ~ 0-3 ms, of which ~ 0-2 ms in data generation
+    - 500 passing, 0 failing, and 94 invalid test cases
+
+  - Stopped because settings.max_examples=500
+
+
+test_daycare_fees.py::test_valid_payable_fee:
+
+  - during generate phase (0.87 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 500 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=500
+
+
+55 passed in 7.19s
