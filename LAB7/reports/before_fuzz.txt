@@ -1,0 +1,130 @@
+FFF                                                                      [100%]
+================================== FAILURES ===================================
+________________________ test_parse_enrolment_no_crash ________________________
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 15, in test_parse_enrolment_no_crash
+  |     def test_parse_enrolment_no_crash(s):
+  |                    ^^^
+  |   File "C:\Users\LENOVO\Downloads\New folder (3)\.lab7-deps\hypothesis\core.py", line 2334, in wrapped_test
+  |     raise the_error_hypothesis_found
+  | ExceptionGroup: Hypothesis found 3 distinct failures. (3 sub-exceptions)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
+    |     result = parse_enrolment(s)
+    |              ^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 3, in parse_enrolment
+    |     return age_group.strip().title(), float(hours)
+    |                                       ^^^^^^^^^^^^
+    | ValueError: could not convert string to float: ''
+    | Failing test case: test_parse_enrolment_no_crash(
+    |     s=':',
+    | )
+    +---------------- 2 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
+    |     result = parse_enrolment(s)
+    |              ^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 2, in parse_enrolment
+    |     age_group, hours = text.split(':')
+    |     ^^^^^^^^^^^^^^^^
+    | ValueError: not enough values to unpack (expected 2, got 1)
+    | Failing test case: test_parse_enrolment_no_crash(
+    |     s='',  # or any other generated value
+    | )
+    +---------------- 3 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 16, in test_parse_enrolment_no_crash
+    |     result = parse_enrolment(s)
+    |              ^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 2, in parse_enrolment
+    |     age_group, hours = text.split(':')
+    |                        ^^^^^^^^^^
+    | AttributeError: 'NoneType' object has no attribute 'split'
+    | Failing test case: test_parse_enrolment_no_crash(
+    |     s=None,  # or any other generated value
+    | )
+    +------------------------------------
+_________________________ test_hours_average_no_crash _________________________
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 24, in test_hours_average_no_crash
+  |     def test_hours_average_no_crash(s):
+  |                    ^^^
+  |   File "C:\Users\LENOVO\Downloads\New folder (3)\.lab7-deps\hypothesis\core.py", line 2334, in wrapped_test
+  |     raise the_error_hypothesis_found
+  | ExceptionGroup: Hypothesis found 2 distinct failures. (2 sub-exceptions)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 25, in test_hours_average_no_crash
+    |     result = hours_average(s)
+    |              ^^^^^^^^^^^^^^^^
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 6, in hours_average
+    |     values = [int(r) for r in hours_csv.split(',')]
+    |               ^^^^^^
+    | ValueError: invalid literal for int() with base 10: ''
+    | Failing test case: test_hours_average_no_crash(
+    |     s='',
+    | )
+    +---------------- 2 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 25, in test_hours_average_no_crash
+    |     result = hours_average(s)
+    |              ^^^^^^^^^^^^^^^^
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 6, in hours_average
+    |     values = [int(r) for r in hours_csv.split(',')]
+    |                               ^^^^^^^^^^^^^^^
+    | AttributeError: 'NoneType' object has no attribute 'split'
+    | Failing test case: test_hours_average_no_crash(
+    |     s=None,  # or any other generated value
+    | )
+    +------------------------------------
+__________________________ test_payable_fee_no_crash __________________________
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 30, in test_payable_fee_no_crash
+  |     def test_payable_fee_no_crash(s):
+  |                    ^^^
+  |   File "C:\Users\LENOVO\Downloads\New folder (3)\.lab7-deps\hypothesis\core.py", line 2334, in wrapped_test
+  |     raise the_error_hypothesis_found
+  | ExceptionGroup: Hypothesis found 3 distinct failures. (3 sub-exceptions)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
+    |     result = payable_fee(s)
+    |              ^^^^^^^^^^^^^^
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 11, in payable_fee
+    |     total = float(fee) * 1.18 - float(discount)
+    |             ^^^^^^^^^^
+    | ValueError: could not convert string to float: ''
+    | Failing test case: test_payable_fee_no_crash(
+    |     s='|',
+    | )
+    +---------------- 2 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
+    |     result = payable_fee(s)
+    |              ^^^^^^^^^^^^^^
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 10, in payable_fee
+    |     fee, discount = text.split('|')
+    |     ^^^^^^^^^^^^^
+    | ValueError: not enough values to unpack (expected 2, got 1)
+    | Failing test case: test_payable_fee_no_crash(
+    |     s='',  # or any other generated value
+    | )
+    +---------------- 3 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\test_daycare_fees.py", line 31, in test_payable_fee_no_crash
+    |     result = payable_fee(s)
+    |              ^^^^^^^^^^^^^^
+    |   File "C:\Users\LENOVO\Downloads\New folder (3)\L6_L7_48_daycare_fees\Lab 7\daycare_fees.py", line 10, in payable_fee
+    |     fee, discount = text.split('|')
+    |                     ^^^^^^^^^^
+    | AttributeError: 'NoneType' object has no attribute 'split'
+    | Failing test case: test_payable_fee_no_crash(
+    |     s=None,  # or any other generated value
+    | )
+    +------------------------------------
+=========================== short test summary info ===========================
+FAILED test_daycare_fees.py::test_parse_enrolment_no_crash - ExceptionGroup: ...
+FAILED test_daycare_fees.py::test_hours_average_no_crash - ExceptionGroup: Hy...
+FAILED test_daycare_fees.py::test_payable_fee_no_crash - ExceptionGroup: Hypo...
+3 failed, 52 deselected in 8.06s
